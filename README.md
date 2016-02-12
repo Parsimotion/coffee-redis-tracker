@@ -14,7 +14,7 @@ class Klass
 
 
 tracker.wrapCounterAndTimerOverMethod Klass, "message", "testing"
-tracker.wrapCounterAndTimerOverMethod Klass, "withCb", "testing"
+tracker.wrapCounterAndTimerOverCallback Klass, "withCb", "testing"
 
 new Klass().message()
 new Klass().withCb(1, 2,

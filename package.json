@@ -1,11 +1,11 @@
 {
-  "name": "massive-operations-webjob",
-  "description": "Webjob para operaciones masivas que consume mensajes desde azure storage",
+  "name": "coffee-redis-tracker",
+  "description": "Time and count function invoque tracker using redis",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Parsimotion/massive-operations-webjob"
+    "url": "git://github.com/Parsimotion/coffee-redis-tracker"
   },
-  "version": "0.0.10",
+  "version": "0.0.0",
   "main": "main.js",
   "dependencies": {
     "bluebird": "~2.10.1",

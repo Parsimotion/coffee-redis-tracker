@@ -1,0 +1,27 @@
+{
+  "name": "massive-operations-webjob",
+  "description": "Webjob para operaciones masivas que consume mensajes desde azure storage",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Parsimotion/massive-operations-webjob"
+  },
+  "version": "0.0.10",
+  "main": "main.js",
+  "dependencies": {
+    "bluebird": "~2.10.1",
+    "coffee-script": "^1.8.0",
+    "redis": "^2.4.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "test": "mocha --compilers coffee:coffee-script/register"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "should": "^7.1.1",
+    "simple-mock": "^0.5.0"
+  }
+}

@@ -15,7 +15,7 @@ class MetricsTracker
     @client = cli || redis.createClient(REDIS_PORT, REDIS_HOST, authPass)
 
     @time = @client.timeAsync().then (time) ->
-      millisec = Number.parseInt(time[0] + time[1].slice(0,3))
+      millisec = parseInt(time[0] + time[1].slice(0,3))
       remoteTime:millisec
       hostTime: new Date().getTime()
 

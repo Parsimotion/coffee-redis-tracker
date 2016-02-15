@@ -5,7 +5,7 @@
     "type": "git",
     "url": "git://github.com/Parsimotion/coffee-redis-tracker"
   },
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "main.js",
   "dependencies": {
     "bluebird": "~2.10.1",
